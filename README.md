@@ -93,8 +93,6 @@ The supplied assignment image appears to show `17` as the output for `(8 / 4) + 
 
 Therefore, this implementation produces `16`, which is the mathematically correct result. This discrepancy should be pointed out to the lecturer if the printed example is intended to be an official expected answer.
 
-## 10. GitHub
-To create the Git repository and commit the project:
 
 ```text
 git init
@@ -105,7 +103,6 @@ git remote add origin YOUR_GITHUB_REPOSITORY_URL
 git push -u origin main
 ```
 
-After pushing, add the lecturer as a collaborator using the GitHub repository's **Settings → Collaborators** area, as required by the assignment brief.
 
 ## 8. Visual Flowchart
 A visual flowchart is included in `flowchart.png` and embedded in the assignment report. It shows input processing, blank/separator-line handling, expression tokenization, stack-based evaluation, error handling, output generation, and the main processing loop. `flowchart.dot` is the editable Graphviz source used to generate the diagram.
